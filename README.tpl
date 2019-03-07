@@ -17,7 +17,7 @@ k8s.gcr.io/{image}/{tag} <==> gcr.io/google-containers/{image}/{tag} <==> ${user
 
 Add new namespace
 -------
-[Fork and edit sync branch file gcr_namespaces](https://github.com/anjia0532/gcr.io_mirror/edit/sync/gcr_namespaces)
+[Fork and edit sync branch file gcr_namespaces](https://github.com/jiapinai/gcr.io_mirror/edit/sync/gcr_namespaces)
 
 append new line about namespace(e.g. `gcr.io/google-containers`  u should append `google-containers`,`k8s.gcr.io` eq `gcr.io/google-containers`)
 
