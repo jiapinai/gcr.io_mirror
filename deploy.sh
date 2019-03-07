@@ -55,7 +55,7 @@ function init_imgs()
   done
   
   # download docker hub tags
-  next="https://hub.docker.com/v2/repositories/anjia0532/${n}.${img}/tags/?page_size=100"
+  next="https://hub.docker.com/v2/repositories/jiapinai/${n}.${img}/tags/?page_size=100"
   while [ "null" != "${next}" ];do
     hub_content=$(curl -ks -X GET "${next}" )
     next=$(echo $hub_content | jq -r '.next')
